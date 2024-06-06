@@ -43,13 +43,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fa fa-compact-disc"></i>
-                    <span>Merchandise</span></a>
+                    <span>Lightsticks</span></a>
             </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="tables.html">
                     <i class="fa fa-compact-disc"></i>
-                    <span>Buku dan Majalah</span></a>
+                    <span>Accessories</span></a>
             </li>
 
             <li class="nav-item">
