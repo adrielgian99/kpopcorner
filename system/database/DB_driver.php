@@ -53,7 +53,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 
  #[AllowDynamicProperties]
- 
 abstract class CI_DB_driver {
 
 	/**
