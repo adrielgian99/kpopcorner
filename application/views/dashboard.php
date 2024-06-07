@@ -24,10 +24,10 @@
     </div>
 
     
-    <div class="row text-center mt-4 mb-4">
+    <div class="row text-center mt-4">
         <?php foreach ($barang as $brg) : ?>
 
-            <div class="card ml-3" style="width: 18rem;">
+            <div class="card ml-3 mb-4" style="width: 18rem;">
                 <img src="<?php echo base_url().'/uploads/'.$brg->gambar ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title mb-1"><?php echo $brg->nama_brg ?></h5>
