@@ -17,7 +17,7 @@
             <td><?= $inv->alamat ?></td>
             <td><?= $inv->tgl_pesan ?></td>
             <td><?= $inv->batas_bayar ?></td>
-            <td><div class="btn btn-sm btn-primary">Detail</div></td>
+            <td><?php  echo anchor('admin/invoice/detail/'. $inv->id, '<div class="btn btn-sm btn-primary">Detail</div>') ?></td>
         </tr>
         <?php endforeach; ?>
     </table>
