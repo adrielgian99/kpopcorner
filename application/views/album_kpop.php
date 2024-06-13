@@ -23,7 +23,6 @@
     </button>
     </div>
 
-    
     <div class="row text-center mt-4">
         <?php foreach ($album_kpop as $brg) : ?>
 

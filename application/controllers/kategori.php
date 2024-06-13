@@ -9,12 +9,12 @@ class Kategori extends CI_Controller{
         $this->load->view('album_kpop',$data);
         $this->load->view('templates/footer');
     }
-    public function lightstick()
+    public function lightsticks()
     {
-        $data['lightstick'] = $this->model_kategori->data_lightstick()->result ();
+        $data['lightstick'] = $this->model_kategori->data_lightsticks()->result ();
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
-        $this->load->view('lightstick',$data);
+        $this->load->view('lightsticks',$data);
         $this->load->view('templates/footer');
     }
     public function accessories()
