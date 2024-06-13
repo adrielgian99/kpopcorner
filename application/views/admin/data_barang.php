@@ -58,7 +58,12 @@
             </div>
             <div class="form-group">
                 <label for="">Kategori</label>
-                <input type="text" name="kategori" class="form-control">
+                <select class="form-control" name="kategori">
+                <option>Album Kpop</option>
+                <option>Lightstick</option>
+                <option>Accessories</option>
+                <option>Photocard</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="">Harga</label>
