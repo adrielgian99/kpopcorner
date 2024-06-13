@@ -2,7 +2,7 @@
 
 class Model_kategori extends CI_Model{
     public function data_album_kpop(){
-        return $this->db->get_where("tb_barang",array('kategori' => 'Album'));
+        return $this->db->get_where("tb_barang",array('kategori' => 'Album Kpop'));
     }
     public function data_lightsticks(){
         return $this->db->get_where("tb_barang",array('kategori' => 'Lightsticks'));
