@@ -60,7 +60,7 @@
                 <label for="">Kategori</label>
                 <select class="form-control" name="kategori">
                 <option>Album Kpop</option>
-                <option>Lightstick</option>
+                <option>Lightsticks</option>
                 <option>Accessories</option>
                 <option>Photocard</option>
                 </select>
